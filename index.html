@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>A Little Math Game Just for You 💕</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts"></div>
+
+  <!-- Main Card -->
+  <div class="card" id="gameCard">
+
+    <!-- Opening Screen -->
+    <div id="startScreen">
+      <h1>💗 A Little Math Game Just for You 💗</h1>
+      <p class="subtitle">Answer with your heart… and your brain.</p>
+      <button class="btn" id="startBtn">Start 💕</button>
+    </div>
+
+    <!-- Question Screen -->
+    <div id="questionScreen" class="hidden">
+      <h2 id="questionText">1 + 1 = ?</h2>
+      <input type="number" id="answerInput" placeholder="Your answer 💭" />
+      <button class="btn" id="submitBtn">Submit ✨</button>
+      <p id="feedback"></p>
+    </div>
+
+    <!-- Final Screen -->
+    <div id="finalScreen" class="hidden">
+      <h2>💌 For You, Jihan</h2>
+      <p class="poem">
+        In every number I count,<br>
+        I always end up choosing you.<br><br>
+        No equation can measure<br>
+        how much my heart belongs to you.<br><br>
+        Even infinity feels small<br>
+        compared to what I feel inside.<br>
+        In every problem, every answer,<br>
+        I hope I get to choose you — for life. 💕
+      </p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
